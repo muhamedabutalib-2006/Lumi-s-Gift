@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pookie's Birthday</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <!-- ========================================
+         HERO SECTION
+    ======================================== -->
+    <section class="hero">
+        <h1>Happy Birthday Pookie</h1>
+        <p>
+            Every moment with you is like a treasure, and today we will celebrate the amazing person you are. 
+            Here are some memories that we've made together. I love you more than words can say.
+        </p>
+
+        <div>
+            <button class="btn" onclick="toggleMemories()">See Our Memories</button>
+        </div>
+    </section>
+
+    <!-- ========================================
+         MEMORIES GALLERY SECTION
+    ======================================== -->
+    <section class="memories-section" id="memories">
+        <h2 class="memories-title">Our Beautiful Memories</h2>
+        
+        <div class="gallery">
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/1.jpg" alt="Memory 1">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When we made our candles together hehe. This is mine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/2.jpg" alt="Memory 2">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>And this is yours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/3.jpg" alt="Memory 3">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When you organized the library after I gave you your birthday gift</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/4.jpg" alt="Memory 4">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>The keychain you got me (I still use it btw)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/5.jpg" alt="Memory 5">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Both of them together</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/6.jpg" alt="Memory 6">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Our music taste being almost identical hehe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/7.jpg" alt="Memory 7">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When we drew on the candles. This is yours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/8.jpg" alt="Memory 8">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>And this is mine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/9.jpg" alt="Memory 9">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When you drew 7ambola for good luck in exams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/10.jpg" alt="Memory 10">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When we took selfies in genshin together</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/11.jpg" alt="Memory 11">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>This one was funny</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/12.jpg" alt="Memory 12">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When you spoiled the anime for me sob</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/13.jpg" alt="Memory 13">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>When we watched solo leveling together. This is yours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/14.jpg" alt="Memory 14">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>This is mine (no shit but idk what else to say)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/15.jpg" alt="Memory 15">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>The picture we used as our lockscreen for a long time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/16.jpg" alt="Memory 16">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Mini Lumi (a cute car)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/17.jpg" alt="Memory 17">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Lumi's car</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/18.jpg" alt="Memory 18">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Us us-ing in genshin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/19.jpg" alt="Memory 19">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>Us us-ing again</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/20.jpg" alt="Memory 20">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>And again</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/21.jpg" alt="Memory 21">
+                    </div>
+                    <div class="card-back">
+                        <div class="card-description">
+                            <p>The forgotten account (like literally because I forgot the gmail)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PHOTO MODAL POPUP
+    ======================================== -->
+    <div class="photo-modal" id="photoModal" onclick="closePhotoModal()">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <span class="close-modal" onclick="closePhotoModal()">&times;</span>
+            <img id="modalImage" src="" alt="Memory">
+            <div class="modal-description">
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         GAME SECTION - CATCH THE HEARTS
+    ======================================== -->
+    <section class="game-section">
+        <h2 class="game-title">Catch My Hearts</h2>
+        <p class="game-subtitle">Click the hearts as fast as you can :p </p>
+        
+        <div class="game-container" id="gameContainer">
+            <div class="game-info">
+                <div>Score: <span id="score">0</span></div>
+                <div>Time: <span id="timer">30</span>s</div>
+            </div>
+
+            <button class="btn" id="startBtn" onclick="startGame()">Start Game</button>
+
+            <div class="game-over" id="gameOver">
+                <h3>Game Over!</h3>
+                <p>You caught <span id="finalScore">0</span> hearts! 💕</p>
+                <button class="btn" onclick="resetGame()">Play Again</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PLAYLIST SECTION
+    ======================================== -->
+    <section class="playlist-section">
+        <h2 class="playlist-title">A playlist I made for you</h2>
+        <p class="playlist-text">
+            Hint(Check the first letter of each song)
+        </p>
+        <button class="btn" onclick="openPlaylist()">Open Spotify Playlist 🎵</button>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer class="footer">
+        <p>Made with love, just for my pookie</p>
+        <p>I hope this makes your day :p </p>
+    </footer>
+
+    <!-- ========================================
+         JAVASCRIPT
+    ======================================== -->
+    <script src="Script.js"></script>
+
+</body>
+</html>
